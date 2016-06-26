@@ -1,0 +1,25 @@
+body{
+    background-color: #282828;
+    font-family: "Tahoma" Sans-Serif ;
+    color: #e6e6e6;
+}
+.wrapper{
+    box-sizing: border-box;
+    padding: 55px 70px 20px;
+    margin: 0 auto;
+    width: 960px;
+    height: 885px;
+    background: url("../img/bg.jpg");
+}
+/*HEADER*/
+.logo {
+    box-sizing: border-box;
+    position: relative;
+    background-image: url("../img/logo.png");
+    padding-top: 115px;
+    width: 265px;
+    height: 147px;
+}
+.logo p{
+    text-align: center;
+}
