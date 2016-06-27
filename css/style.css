@@ -1,6 +1,6 @@
 body{
     background-color: #282828;
-    font-family: "Tahoma" Sans-Serif ;
+    font-family: Tahoma, Arial, Sans-Serif;
     color: #e6e6e6;
 }
 .wrapper{
@@ -11,7 +11,18 @@ body{
     height: 885px;
     background: url("../img/bg.jpg");
 }
+a{
+    color: #e6e6e6;
+    text-decoration: none;
+}
+
 /*HEADER*/
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
 .logo {
     box-sizing: border-box;
     position: relative;
@@ -22,4 +33,44 @@ body{
 }
 .logo p{
     text-align: center;
+}
+.contact-us{
+    float: right;
+    margin-top:90px;
+    margin-right: 10px;
+}
+.contact-us p{
+    font-size:9px;
+    margin-bottom: 5px;
+}
+.contact-us h3{
+    font-size:11px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+/*GALERY*/
+
+.galery li{
+    margin: 0  1% 50px 1%;
+    float: left;
+    width: 31.3%;
+}
+.galery img{
+    border: 4px ridge #878787;
+    border-radius: 4px;
+    max-width: 100%;
+}
+.galery h3{
+    text-align: center;
+    font-size:16px;
+    padding-top:2px;
+}
+
+/*FOOTER*/
+
+footer{
+    text-align: center;
+    font-size:11px;
+    padding-top: 130px;
 }
