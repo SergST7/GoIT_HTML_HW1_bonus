@@ -1,76 +1,104 @@
-body{
-    background-color: #282828;
-    font-family: Tahoma, Arial, Sans-Serif;
-    color: #e6e6e6;
-}
-.wrapper{
-    box-sizing: border-box;
-    padding: 55px 70px 20px;
-    margin: 0 auto;
-    width: 960px;
-    height: 885px;
-    background: url("../img/bg.jpg");
-}
-a{
-    color: #e6e6e6;
-    text-decoration: none;
+body {
+  background-color: #282828;
+  color: #e6e6e6;
+  font-family: Tahoma, Arial, Sans-Serif;
 }
 
-/*HEADER*/
-
-.clearfix:after{
-    content: "";
-    display: table;
-    clear: both;
+.wrapper {
+  box-sizing: border-box;
+  width: 960px;
+  height: 885px;
+  padding: 55px 70px 20px;
+  margin: 0 auto;
+  background: url("../img/bg.jpg");
 }
+
+a {
+  color: #e6e6e6;
+  text-decoration: none;
+}
+
+
+
+
+
+/*-------------------------
+    #SECTION-HEAD
+----------------------*/
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .logo {
-    box-sizing: border-box;
-    position: relative;
-    background-image: url("../img/logo.png");
-    padding-top: 115px;
-    width: 265px;
-    height: 147px;
-}
-.logo p{
-    text-align: center;
-}
-.contact-us{
-    float: right;
-    margin-top:90px;
-    margin-right: 10px;
-}
-.contact-us p{
-    font-size:9px;
-    margin-bottom: 5px;
-}
-.contact-us h3{
-    font-size:11px;
-    font-weight: bold;
-    margin-bottom: 7px;
+  position: relative;
+  box-sizing: border-box;
+  width: 265px;
+  height: 147px;
+  padding-top: 115px;
+  background-image: url("../img/logo.png");
 }
 
-/*GALERY*/
-
-.galery li{
-    margin: 0  1% 50px 1%;
-    float: left;
-    width: 31.3%;
-}
-.galery img{
-    border: 4px ridge #878787;
-    border-radius: 4px;
-    max-width: 100%;
-}
-.galery h3{
-    text-align: center;
-    font-size:16px;
-    padding-top:2px;
+.logo p {
+  text-align: center;
 }
 
-/*FOOTER*/
+.contact-us {
+  float: right;
+  margin-top: 90px;
+  margin-right: 10px;
+}
 
-footer{
-    text-align: center;
-    font-size:11px;
-    padding-top: 130px;
+.contact-us p {
+  margin-bottom: 5px;
+  font-size: 9px;
+}
+
+.contact-us h3 {
+  margin-bottom: 7px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+
+
+
+
+/*-------------------------
+    #SECTION-GALERY
+----------------------*/
+
+.galery li {
+  float: left;
+  width: 31.3%;
+  margin: 0 1% 50px 1%;
+}
+
+.galery img {
+  max-width: 100%;
+  border: 4px ridge #878787;
+  border-radius: 4px;
+}
+
+.galery h3 {
+  padding-top: 2px;
+  text-align: center;
+  font-size: 16px;
+}
+
+
+
+
+
+
+/*-------------------------
+    #SECTION-FOOTER
+----------------------*/
+
+footer {
+  text-align: center;
+  font-size: 11px;
+  padding-top: 130px;
 }
